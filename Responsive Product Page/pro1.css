@@ -1,0 +1,160 @@
+.main{
+    width: 84%;
+	height: 530px;
+	border: 2px solid #eaeaea;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transition: .4s;
+	box-sizing: border-box;
+    margin-left: 50px;
+    margin-top: 50px;
+	
+}
+.box{
+    width: 250px;
+	height: 380px;
+	float: left;
+	border: 1px solid #eaeaea;
+	margin-top: 90px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transition: .4s;
+	box-sizing: border-box;
+	margin-left: 34px;
+}
+.box:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+
+
+.r{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(94, 94, 196);
+    margin-top: -50px;
+    margin-left: 150px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px  ;
+}
+.s{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(70, 70, 223);
+    margin-top: -85px;
+    margin-left: 150px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px  ;
+}
+.ta{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+}
+.b{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: -45px;
+    margin-left: 25px;
+    color: #ffffff;
+}
+.te{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    
+}
+.q{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: rgb(63, 63, 228);
+    margin-top: 60px;
+    margin-left: 10px;
+
+}
+.pa{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: -20px;
+    
+}
+.e{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: rgb(63, 63, 228);
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.ribbon3 {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    position: absolute;
+    left: 50px;
+    top: 60px;
+    background: #7b64e4;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+  .ribbon3:before, .ribbon3:after {
+    content: "";
+    position: absolute;
+}
+.ribbon3:before {
+    height: 0;
+    width: 0;
+    top: -8.5px;
+    left: 0.1px;
+    border-bottom: 9px solid black;
+    border-left: 9px solid transparent;
+}
+.ribbon3:after {
+    height: 0;
+    width: 0;
+    right: -14.5px;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 15px solid #7b64e4;
+}
+.box1{
+    width: 250px;
+	height: 380px;
+	float: left;
+	border: 1px solid #eaeaea;
+	margin-top: 90px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transition: .4s;
+	box-sizing: border-box;
+	margin-left: 20px;
+}
+.box1:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+
+.imge{
+    padding:50px;
+    width:130px; 
+    height:130px;
+}
+@media screen and (max-width: 600px)
+{
+    .main{
+        width: 300px;
+        height: 2000px;
+        border: 2px solid #eaeaea;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
+        transition: .4s;
+        box-sizing: border-box;
+        margin-left: 50px;
+        margin-top: 50px;
+        
+    }
+    
+}    
